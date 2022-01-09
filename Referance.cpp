@@ -15,7 +15,7 @@ int main(void)
 	    cout << "매개변수 오류" << endl;//false를 반환받아 "매개변수 오류" 문구 출력
 	    return 0;
 }
-bool average(int arr[], int len, int& avg) //main에 있는 avg를 참조하기 위해서 avg의 주소값을 받는다
+bool average(int arr[], int len, int& avg) //main에 있는 avg를 참조
 {
     int sum = 0; //총합 sum을 0으로 초기화
     if(len > 0) { //배열의 값이 양수인 경우
